@@ -15,24 +15,26 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="shortcut icon" type="image/png" href="assets/favicon.png" />
+    <link rel="shortcut icon" type="image/png" href="icon/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="icon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="icon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="icon/favicon-16x16.png">
+    <link rel="manifest" href="icon/site.webmanifest">  
 
     <!-- Todo: put here your site title -->
-    <title>Alessandra Marchiori-Acoba | Developer</title>
+    <title>Alessandra Marchiori | Portfolio</title>
     <!-- Todo: add some coding keywords below - e.g: (javascript, yourusername, etc) -->
-    <meta name="keywords" content="[@amarchiori], [Alessandra Marchiori-Acoba], HTML, CSS, Javascript, React" />
+    <meta name="keywords" content="[@amarchiori], [Alessandra Marchiori], HTML, CSS, Javascript, React" />
     <!-- Todo: improve your SEO by adding a small description of you -->
-    <meta name="" content="Alessandra Marchiori-Acoba | Developer" />
+    <meta name="" content="Alessandra Marchiori | Portfolio" />
 
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
     <link rel="stylesheet" href="styles.scss" />
-    <script
-      defer
-      src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"
-    ></script>
+    <script defer src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+    <script src="https://kit.fontawesome.com/6845d75286.js" crossorigin="anonymous"></script>
 
     <!-- Todo: remove the below script once you finish your portfolio -->
     <script async defer src="https://buttons.github.io/buttons.js"></script>
@@ -46,14 +48,14 @@
     <section id="hero" class="jumbotron">
       <div class="container">
         <h1 class="hero-title load-hidden">
-          Hello, I am <span class="text-color-main">Alessandra Marchiori-Acoba</span>
+          <span class="text-color-main">Alessandra Lorena Marchiori</span>
           <br />
-          Graphic Design & Frontend Developer
+          Graphic Designer & Frontend Developer
         </h1>
         <p class="hero-cta load-hidden">
-          <!-- <a rel="noreferrer" class="cta-btn cta-btn--hero" href="#about"
-            >Know more</a
-          > -->
+          <a rel="noreferrer" class="cta-btn cta-btn--hero" href="#about"
+            ><i class="fa-solid fa-angle-down"></i></a
+          >
         </p>
       </div>
     </section>
@@ -71,7 +73,7 @@
                 class="img-fluid rounded shadow-lg"
                 height="auto"
                 width="300px"
-                src="assets/profile.jpg"
+                src="assets/img.profile.jpg"
                 alt="Profile Image"
               />
             </div>
@@ -79,18 +81,17 @@
           <div class="col-md-6 col-sm-12">
             <div class="about-wrapper__info load-hidden">
               <p class="about-wrapper__info-text">
-                This is where you can describe about yourself. The more you
-                describe about yourself, the more chances you can!
+                Web Developer with ability to learn and collaborate with teams. From Graphic Designer to Manager to Web Developer, I have accumulated a well rounded set of skills and now eager to tackle challanges in web development and design. Worked on countless hours in my free time HTML, CSS, JavaScript, React.Js, Redux ... and more. I am motivated and excited to grow my skills and continously learn more about web development and myself. 
               </p>
-              <p class="about-wrapper__info-text">
+              <!-- <p class="about-wrapper__info-text">
                 Extra Information about you! like hobbies and your goals.
-              </p>
+              </p> -->
               <span class="d-flex mt-3">
                 <a
                   rel="noreferrer"
                   target="_blank"
                   class="cta-btn cta-btn--resume"
-                  href="assets/resume.pdf"
+                  href="assets/MarchioriResume2023.pdf"
                 >
                   View Resume
                 </a>
@@ -109,7 +110,7 @@
           <h2 class="section-title dark-blue-text">Projects</h2>
 
           <!-- Notice: each .row is a project -->
-          <div class="row">
+          <!-- <div class="row">
             <div class="col-lg-4 col-sm-12">
               <div class="project-wrapper__text load-hidden">
                 <h3 class="project-wrapper__text-title">Family Recipes</h3>
@@ -155,7 +156,7 @@
                 </a>
               </div>
             </div>
-          </div>
+          </div> -->
           <!-- /END Project -->
 
           <!-- Notice: each .row is a project -->
@@ -165,7 +166,7 @@
                 <h3 class="project-wrapper__text-title">E-commerce</h3>
                 <div>
                   <p class="mb-4">
-                    Largest frontend project to date. The ecommerce tested my knowledge on React.js, Firebase, Redux-saga, and more. 
+                    Largest frontend project to date. This ecommerce site tested my knowledge on React.js, Firebase, Redux-saga, and more. 
                   </p>
                 </div>
                 <a
@@ -180,7 +181,7 @@
                   rel="noreferrer"
                   target="_blank"
                   class="cta-btn text-color-main"
-                  href="https://github.com/amarchiori/crwn-clothing"
+                  href="https://github.com/amarchiori/a-clothing"
                 >
                   Source Code
                 </a>
@@ -199,7 +200,7 @@
                     <img
                       alt="Project Image"
                       class="img-fluid"
-                      src="assets/project.jpg"
+                      src="assets/A-clothing-image.png"
                     />
                   </div>
                 </a>
@@ -215,24 +216,24 @@
                 <h3 class="project-wrapper__text-title">Italian Cookbook</h3>
                 <div>
                   <p class="mb-4">
-                    Buona Giornata! I started this project back in 2017 by using Adobe InDesign and Adoba XD. I styled and designed this Italian Cookbook using some of my family recipes as well as others.
+                    Buona Giornata! I started this project back in 2017 by using Adobe InDesign and Adoba XD. I styled and designed this Italian Cookbook using some of my family recipes as well as others. Currently, I am working on making an application where others can add their own recipes to save and share to family. 
                   </p>
                 </div>
                 <a
                   rel="noreferrer"
                   target="_blank"
                   class="cta-btn cta-btn--hero"
-                  href="#!"
+                  href="assets/ItalianCookBook.pdf"
                 >
                   See Live
                 </a>
-                <a
+                <!-- <a
                   rel="noreferrer"
                   target="_blank"
                   class="cta-btn text-color-main"
                   href="#!"
                 >
-                  Source Code
+                  Source Code -->
                 </a>
               </div>
             </div>
@@ -272,17 +273,9 @@
                   rel="noreferrer"
                   target="_blank"
                   class="cta-btn cta-btn--hero"
-                  href="#!"
+                  href="assets/MonographPDF.pdf"
                 >
                   See Live
-                </a>
-                <a
-                  rel="noreferrer"
-                  target="_blank"
-                  class="cta-btn text-color-main"
-                  href="#!"
-                >
-                  Source Code
                 </a>
               </div>
             </div>
